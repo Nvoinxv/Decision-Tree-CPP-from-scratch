@@ -17,15 +17,15 @@ If you running again and again my project, you get a change for my accuracy, MSE
 
 === Improvement Model dengan Backward Pass ===
 Melakukan backward pass untuk improve model...
-MSE: 1.0048e+07
-R2_SCORE: 0.810766
+MSE: 7.74368e+06
+R2_SCORE: 0.845848
 
 === Contoh Prediksi Single Sample ===
 Sample pertama dari test set:
-Fitur: [0.5, 0, 0.541297, 0.2, 1]
-Prediksi: 7730.05
-Actual: 6781.35
-Error: 948
+Fitur: [0.195652, 1, 0.449556, 0, 1]
+Prediksi: 2790.53
+Actual: 2497.04
+Error: 293
 
 The accuracy and MSE are good because I applied MinMax scaling to the feature variables (X), not to the target variable (y), since the y variable represents the actual prediction values and after prediction get a prediction like actual dataset not scaler data (range 0-1 because im use minmaxscaler).
 
