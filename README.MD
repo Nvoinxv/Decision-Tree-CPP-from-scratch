@@ -37,7 +37,7 @@ For running my project, don't forget to like this:
 g++ main.cpp -o main
 # Running program
 ./main.exe
-
+```
 ## 👋 Closer
 *I hope you enjoy read my explain about decision tree and you get a new knowledge about how works decision tree. So thank you and good bye!*
 
